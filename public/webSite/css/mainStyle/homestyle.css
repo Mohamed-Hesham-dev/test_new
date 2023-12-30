@@ -1,0 +1,19 @@
+.header-menu{
+    direction:rtl !important;
+}
+#homeSlider{
+    direction:rtl;
+}
+.counter-card{
+    direction:rtl;
+}
+#ar{
+    direction:rtl;
+}
+#row{
+    direction:rtl;
+}
+#al{
+     
+    text-align: right !important;
+}

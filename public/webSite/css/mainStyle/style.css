@@ -1,0 +1,507 @@
+body {
+  background-color: #F6F6F8;
+}
+
+.scrolling-active {
+  background-color: white !important;
+}
+
+.showlightlogo {
+  display: block;
+}
+
+.showdarklogo {
+  display: block;
+}
+
+.hidelightlogo {
+  display: none;
+}
+
+.hidedarklogo {
+  display: none;
+}
+
+.nav-item a {
+  color: #ADB846 !important;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-item a:hover {
+  color: #F4C039 !important;
+  width: auto;
+}
+
+.nav-item a:focus {
+  color: #F4C039 !important;
+  width: auto;
+}
+
+.nav-item a.active {
+  color: #F4C039 !important;
+  border-bottom: solid 3px #F4C039;
+}
+
+.dropdown-item:active {
+  width: auto;
+  background-color: lightgray !important;
+}
+
+.loginButton a {
+  background-color: #ADB846;
+  border: solid 1px #ADB846;
+  border-radius: 21px;
+  padding: 4px 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.loginButton a:hover {
+  background-color: white;
+  color: #ADB846 !important;
+  border: solid 1px #ADB846;
+  color: #ADB846 !important;
+}
+
+.social-media i {
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 50%;
+}
+
+.carousel-item img {
+  height: 660px !important;
+}
+
+.carousel-caption {
+  position: absolute !important;
+  left: 12%;
+  top: 16%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  text-align: left !important;
+}
+
+.highlighted {
+  background-color: #ADB846;
+  width: 75% !important;
+}
+
+.sliderP {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.sliderButton {
+  background-color: #ADB846;
+  color: white;
+  border: 1px solid #ADB846;
+  padding: 8px 18px;
+  border-radius: 5px;
+  float: right;
+}
+
+.navbar-brand img {
+  width: 50% !important;
+}
+
+.sliderButton:hover {
+  background-color: white;
+  color: #ADB846;
+  border: 1px solid #ADB846;
+  padding: 8px 18px;
+  border-radius: 5px;
+}
+
+.mainButton {
+  background-color: #F4C039;
+  color: white !important;
+  border: 1px solid #F4C039;
+  padding: 9px 45px;
+  border-radius: 5px;
+  float: right;
+}
+
+.mainButton:hover {
+  background-color: white;
+  color: #F4C039 !important;
+  border: 1px solid #F4C039;
+  padding: 9px 45px;
+  border-radius: 5px;
+}
+
+.mainButton-2 {
+  background-color: #ADB846;
+  color: white;
+  border: 1px solid #ADB846;
+  padding: 9px 45px;
+  border-radius: 5px;
+  float: right;
+}
+
+.mainButton-2:hover {
+  background-color: white;
+  color: #F4C039;
+  border: 1px solid #ADB846;
+  padding: 9px 45px;
+  border-radius: 5px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 24%;
+}
+
+footer {
+  background-color: #F4F4F4;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly !important;
+}
+
+.counter-icon i {
+  font-size: 50px;
+  color: #ADB846;
+}
+
+.counter-card {
+  color: #ADB846;
+  width: 85%;
+  padding: 13px 1px;
+}
+
+.counter-card:hover {
+  box-shadow: 0px 0px 13px 2px lightgrey;
+  border: 1px solid rgba(128, 128, 128, 0);
+  border-radius: 45% 12px 45% 12px;
+  padding: 13px 1px;
+  width: 85%;
+}
+
+.contactUs-card {
+  background: #ADB846;
+  padding: 16px 1px;
+  border-radius: 23px;
+  color: white;
+  margin-top: -120px;
+}
+
+.contactUs-card p {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.contactArea-button {
+  border-radius: 40px !important;
+  padding: 5px 30px;
+  background-color: #F4C039;
+  border: 1px solid #F4C039;
+  color: white;
+}
+
+.contactArea-button:hover {
+  background-color: white;
+  border: 1px solid #F4C039;
+  color: #F4C039;
+}
+
+.contact-input {
+  border: none !important;
+}
+
+.contact-form-group {
+  background: white;
+  border-radius: 22px;
+  padding: 7px 7px;
+}
+
+.mainContent {
+  padding: 60px;
+  border-radius: 15px;
+}
+
+.small-text {
+  font-size: 13px;
+}
+
+.xx-small-text {
+  font-size: 6px;
+}
+
+.primary-color {
+  color: #ADB846 !important;
+}
+
+.secondary-color {
+  color: #F4C039 !important;
+}
+
+.x-small-text {
+  font-size: 6px;
+  font-weight: 700;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+
+.font-weight-400 {
+  font-weight: 400 !important;
+}
+
+.logo-size {
+  width: 36%;
+}
+
+.blue-div {
+  background-color: #007BFF;
+  padding: 4px 13px;
+  border-radius: 3px;
+  color: white;
+}
+
+.status-div {
+  padding: 4px 13px;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-button {
+  padding: 3px 21px;
+  background-color: #F4C039;
+  color: white;
+  border: 1px solid #F4C039;
+  border-radius: 5px;
+}
+
+.small-button:hover {
+  background-color: white;
+  color: #F4C039;
+  border: 1px solid #F4C039;
+  padding: 3px 21px;
+  border-radius: 5px;
+}
+
+.small-button-2 {
+  padding: 3px 12px;
+  background-color: #007BFF;
+  color: white;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+}
+
+.small-button-2:hover {
+  background-color: white;
+  color: #F4C039;
+  border: 1px solid #007BFF;
+  padding: 3px 12px;
+  border-radius: 5px;
+}
+
+.card-img {
+  height: 155px !important;
+}
+
+.div-padding {
+  padding-top: 25px;
+  padding-bottom: 70px;
+}
+
+.width-60 {
+  width: 60px !important;
+}
+
+.height-200 {
+  height: 200px !important;
+}
+
+.margin-div-top {
+  margin-top: 140px !important;
+}
+
+.gray-background {
+  background-color: rgba(238, 238, 238, 0.85) !important;
+}
+
+#yes-div {
+  display: none;
+}
+
+#no-div {
+  display: none;
+}
+
+#other-div {
+  display: none;
+}
+
+.startup-info {
+  padding: 52px 20px;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+#upload-pdf-div, #upload-ppt-div, #upload-video-div, #upload-3d-div, #Shareholders-num-div, #Execution-plan-div, #upload-prototype-div,
+#amount-div, #upload-prototype-img, #valuation-div, #upload-product-img-div {
+  display: none;
+}
+
+.status-span {
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 2px 8px;
+}
+
+.active-status-span {
+  background-color: #ADB846;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 8px;
+}
+
+.status-div p {
+  color: #504949;
+  font-weight: 500;
+}
+
+/******************************************************/
+@media screen and (max-width: 992px) {
+  .navbar {
+    background-color: white !important;
+  }
+  .nav-item a.active {
+    color: #F4C039 !important;
+    border-bottom: none;
+  }
+  .carousel-item img {
+    height: 100% !important;
+  }
+  .counter-card {
+    width: 100%;
+  }
+  .counter-card:hover {
+    width: 100%;
+  }
+  .carousel-item img {
+    height: 400px !important;
+  }
+  .carousel-indicators {
+    position: absolute;
+    bottom: 16%;
+  }
+  .sliderButton {
+    float: none;
+  }
+  .navbar > .container-md {
+    background-color: white;
+  }
+  .loginButton {
+    margin-bottom: 8px;
+  }
+  .mainContent {
+    padding: 30px;
+  }
+  .displaySmallBlock {
+    display: block !important;
+  }
+  .sliderP {
+    font-size: 9px;
+  }
+  .navbar-brand img {
+    width: 70% !important;
+  }
+  .contactUs-card p {
+    font-size: 11px;
+    font-weight: 400;
+  }
+  .mainButton {
+    padding: 9px 20px;
+  }
+  .mainButton:hover {
+    padding: 9px 20px;
+  }
+  .status-div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .status {
+    display: flex;
+    flex-direction: column;
+  }
+  .status-span {
+    margin-bottom: 3px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    background-color: white !important;
+  }
+  .nav-item a.active {
+    color: #F4C039 !important;
+    border-bottom: none;
+  }
+  .carousel-item img {
+    height: 100% !important;
+  }
+  .counter-card {
+    width: 100%;
+  }
+  .counter-card:hover {
+    width: 100%;
+  }
+  .carousel-item img {
+    height: 502px !important;
+  }
+  .carousel-indicators {
+    position: absolute;
+    bottom: 16%;
+  }
+  .sliderButton {
+    float: none;
+  }
+  .navbar > .container-md {
+    background-color: white;
+  }
+  .loginButton {
+    margin-bottom: 8px;
+  }
+  .mainContent {
+    padding: 30px;
+  }
+  .displaySmallBlock {
+    display: block !important;
+  }
+  .sliderP {
+    font-size: 9px;
+  }
+  .navbar-brand img {
+    width: 70% !important;
+  }
+  .contactUs-card p {
+    font-size: 11px;
+    font-weight: 400;
+  }
+  .mainButton {
+    padding: 9px 20px;
+  }
+  .mainButton:hover {
+    padding: 9px 20px;
+  }
+  .status-div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .status {
+    display: flex;
+    flex-direction: column;
+  }
+  .status-span {
+    margin-bottom: 3px;
+  }
+}/*# sourceMappingURL=style.css.map */
